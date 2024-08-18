@@ -1,0 +1,41 @@
+body {
+    background-image: url("../assets/images/login-back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box-shadow value */
+    background-color: #fff;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.btn-facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+.btn-google {
+    background-color: #db4a39;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #1da1f2;
+    color: #fff;
+}
